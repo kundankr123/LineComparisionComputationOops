@@ -8,8 +8,12 @@ namespace LineComparisionComputationOops
         {
             Console.WriteLine("Welcome to Line Comparision Computation.");
 
-            LengthComputation LineLength = new LengthComputation();
-            LineLength.CalculateLength();
+            //LengthComputation LineLength = new LengthComputation();
+            //LineLength.CalculateLength();
+
+            LengthEqualityCheck Lines = new LengthEqualityCheck();
+            Lines.CheckEqualLength();
+
         }
     }
 }
