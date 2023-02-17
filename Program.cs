@@ -11,9 +11,11 @@ namespace LineComparisionComputationOops
             //LengthComputation LineLength = new LengthComputation();
             //LineLength.CalculateLength();
 
-            LengthEqualityCheck Lines = new LengthEqualityCheck();
-            Lines.CheckEqualLength();
+            //LengthEqualityCheck Lines = new LengthEqualityCheck();
+            //Lines.CheckEqualLength();
 
+            LengthComparision Lines= new LengthComparision();
+            Lines.ComparisionofLines();
         }
     }
 }
